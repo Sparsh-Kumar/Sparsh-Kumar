@@ -4,17 +4,16 @@
 
 ### Software Engineer · Backend · Data Engineering · Distributed Systems · GenAI
 
-Building scalable backend systems, data-intensive platforms, and GenAI applications.
+Building scalable backend systems, data platforms, and AI-powered applications.
 
-<br>
-
-<a href="https://github.com/Sparsh-Kumar">
-  <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-181717?style=flat&logo=github&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-</a>
+<p>
+  <a href="https://github.com/Sparsh-Kumar">
+    <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-181717?style=flat-square&logo=github" />
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin" />
+  </a>
+</p>
 
 </div>
 
@@ -22,242 +21,224 @@ Building scalable backend systems, data-intensive platforms, and GenAI applicati
 
 ## About Me
 
-Software Engineer with **7+ years of experience** building scalable backend systems, data-intensive applications, distributed systems, and GenAI solutions.
+Software Engineer with 7+ years of experience building scalable applications, high-performance systems, and data-intensive platforms.
 
-I enjoy solving complex engineering problems involving **high-throughput data, real-time processing, system design, scalability, and performance**.
+My primary areas of interest are:
 
-My primary engineering interests are:
+- Backend Engineering
+- Data Engineering
+- Distributed Systems
+- Cloud Infrastructure
+- Generative AI
+- System Design
+- Performance Optimization
 
-**Backend Engineering · Data Engineering · Distributed Systems · Generative AI**
+I enjoy working on systems where scalability, reliability, throughput, and clean architecture matter.
 
 ---
 
 ## Featured Engineering Work
 
-### 01 · Low-Latency Data as a Service
+### Low-Latency Data as a Service
 
-**[Low-Latency-DAAS](https://github.com/Sparsh-Kumar/Low-Latency-DAAS)** · `Work in Progress`
+**Python · WebSockets · Docker · AWS · Kafka · Parquet · Apache Iceberg · Trino**
 
-A low-latency market-data platform designed to provide reusable infrastructure for collecting and processing real-time market data.
+A data platform for collecting and serving real-time market data through reusable ingestion infrastructure.
 
-Currently supports cryptocurrency WebSocket feeds for:
+Current focus:
 
-* Live tickers
-* Live trades
-* Live order books
-* Independent ingestion jobs
-* Reusable Python libraries
-* Docker-based execution
-* Terraform infrastructure
+- Real-time WebSocket ingestion
+- Live tickers, trades, and order books
+- Independent ingestion jobs
+- Data lake architecture
+- Columnar storage with Parquet
+- Apache Iceberg tables
+- Querying through Trino
+- Containerized workloads
+- Infrastructure automation with Terraform
 
-The architecture is designed to extend toward additional market-data protocols such as **ITCH and FIX**.
-
-**Python · WebSockets · Docker · Terraform · Real-Time Data · Distributed Systems**
-
----
-
-### 02 · Live News Evaluation
-
-**[Live-News-Evaluation-Implementation](https://github.com/Sparsh-Kumar/Live-News-Evaluation-Implementation)**
-
-A real-time GenAI system that continuously monitors financial and political news and evaluates its potential impact on a portfolio.
-
-The system:
-
-`News Feeds → Deduplication → Portfolio Context → LLM Analysis → Trading Signal → MongoDB`
-
-Key engineering components include:
-
-* Continuous RSS-based news ingestion
-* Portfolio integration
-* LLM-powered analysis
-* Structured trading signals
-* Confidence scoring
-* Duplicate-news prevention
-* Scheduled processing
-* MongoDB persistence
-* REST API
-* Web dashboard
-
-**Python · OpenAI · LLMs · MongoDB · Flask · RSS · GenAI**
+[View Repository](https://github.com/Sparsh-Kumar/Low-Latency-DAAS)
 
 ---
 
-### 03 · Finsight
+### News Investing Advisor
 
-**[Finsight](https://github.com/Sparsh-Kumar/Finsight)**
+**Python · Flask · MongoDB · OpenAI · RSS · REST API**
 
-A TypeScript/Node.js library that automates the extraction of financial information from sources such as **Screener.in**.
+An automated system that continuously monitors financial news and evaluates its potential impact on an investment portfolio.
 
-The goal is to provide a programmatic interface to financial data where a conventional API is unavailable.
+Key components:
 
-The library currently exposes functionality for:
+- News aggregation
+- Portfolio integration
+- Duplicate detection
+- LLM-based analysis
+- Structured investment signals
+- Confidence scoring
+- MongoDB persistence
+- REST API
+- Automated periodic processing
 
-* Quarterly results
-* Profit & loss statements
-* Shareholding patterns
-* Credit ratings
-* Sentiment information
-* Company announcements
-* Annual reports
-* Concall transcripts
-
-Built with a modular source abstraction so additional data sources can be integrated over time.
-
-**TypeScript · Node.js · Web Data Extraction · APIs · Financial Data**
+[View Repository](https://github.com/Sparsh-Kumar/Live-News-Evaluation-Implementation)
 
 ---
 
-### 04 · Redis Streams Message Queue
+### Finsight
 
-**[Redis-Streams-Message-Queue](https://github.com/Sparsh-Kumar/Redis-Streams-Message-Queue)**
+**TypeScript · Node.js · Web Scraping · Data Extraction**
 
-A message queue implementation built around **Redis Streams**, focusing on understanding the internals and engineering trade-offs behind scalable asynchronous messaging.
+A TypeScript library for programmatically collecting structured company and financial information from multiple sources.
 
-The implementation explores:
+Includes extraction capabilities for:
 
-* Message producers
-* Blocking consumers
-* Consumer groups
-* Message processing
-* Failure handling
-* Queue abstractions
-* Redis Streams as a messaging backbone
+- Shareholding patterns
+- Quarterly results
+- Profit & loss statements
+- Credit ratings
+- Company announcements
+- Annual reports
+- Conference calls
+- Investor sentiment
 
-Built to understand distributed messaging systems from the implementation level rather than treating the queue as a black box.
-
-**TypeScript · Node.js · Redis · Message Queues · Distributed Systems**
+[View Repository](https://github.com/Sparsh-Kumar/Finsight)
 
 ---
 
-### 05 · Quarterly Concall Evaluation
+### Redis Streams Message Queue
 
-**[Quarterly-Concall-Evaluation-Implementation](https://github.com/Sparsh-Kumar/Quarterly-Concall-Evaluation-Implementation)**
+**TypeScript · Node.js · Redis Streams · Consumer Groups**
 
-A GenAI-powered research system that processes company earnings-call transcripts and uses **Retrieval-Augmented Generation** to extract insights.
+A message queue implementation built from scratch using Redis Streams.
+
+Explores:
+
+- Producer and consumer abstractions
+- Consumer groups
+- Blocking consumers
+- Message acknowledgement
+- Failure handling
+- Queue abstractions
+- Distributed messaging patterns
+
+[View Repository](https://github.com/Sparsh-Kumar/Redis-Streams-Message-Queue)
+
+---
+
+### RAG Stock Concall Evaluation
+
+**Python · Haystack · OpenAI · RAG · NLP**
+
+A retrieval-augmented generation pipeline for analyzing company conference-call transcripts.
 
 Pipeline:
 
-`Concall PDFs → Text Extraction → Cleaning → RAG Context → LLM Analysis`
+```text
+PDF Transcripts
+      ↓
+Text Extraction
+      ↓
+Cleaning & Processing
+      ↓
+RAG Context Creation
+      ↓
+LLM Analysis
+      ↓
+Structured Insights
+````
 
-The system can be used to:
+Used for:
 
-* Summarize positive and negative developments
-* Compare statements across quarterly calls
-* Identify missed targets and commitments
-* Extract important business signals
-* Explore potential investment opportunities
+* Quarterly call comparison
+* Positive and negative developments
+* Missed targets
+* Management commentary
+* Potential investment insights
 
-**Python · RAG · Haystack · GPT · NLP · Financial Analysis**
+[View Repository](https://github.com/Sparsh-Kumar/Quarterly-Concall-Evaluation-Implementation)
 
 ---
 
-## Engineering Domains
+## Engineering Focus
 
-| Domain                     | Areas                                                       |
-| :------------------------- | :---------------------------------------------------------- |
-| **Backend Engineering**    | APIs, Microservices, System Design, Scalability             |
-| **Data Engineering**       | Data Pipelines, ETL, Distributed Processing, Data Platforms |
-| **Distributed Systems**    | Kafka, Redis, Messaging, Event-Driven Architecture          |
-| **Real-Time Systems**      | WebSockets, Streaming Data, Low-Latency Processing          |
-| **Generative AI**          | LLMs, RAG, AI Agents, LLM Applications                      |
-| **Cloud & Infrastructure** | AWS, Docker, Kubernetes, Terraform, CI/CD                   |
-
----
-
-## Technology Stack
-
-### Languages
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="42" />
-</p>
-
-### Backend & Data
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" width="42" />
-</p>
-
-### Cloud & Infrastructure
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="55" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="42" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="42" />
-</p>
-
-### Generative AI
-
-`LLMs` · `RAG` · `LangChain` · `LangGraph` · `AI Agents` · `NLP`
+| Area                | Technologies                                          |
+| ------------------- | ----------------------------------------------------- |
+| Backend             | Python, Node.js, TypeScript, NestJS                   |
+| Data Engineering    | PySpark, SQL, Kafka, Parquet, Apache Iceberg, Trino   |
+| Databases           | PostgreSQL, MongoDB, Redis                            |
+| Distributed Systems | Kafka, Redis Streams, Microservices, Async Processing |
+| Cloud               | AWS, GCP                                              |
+| Infrastructure      | Docker, Kubernetes, Terraform                         |
+| CI/CD               | GitHub Actions, CircleCI                              |
+| AI / GenAI          | LLMs, RAG, LangChain, LangGraph, AI Agents            |
+| APIs                | REST, WebSockets                                      |
+| Development         | Linux, Git, Ruff, pytest                              |
 
 ---
 
 ## What I Like Building
 
 ```text
-High-throughput backend services
+High-Throughput Systems
         ↓
-Real-time data pipelines
+Distributed Architectures
         ↓
-Distributed systems
+Data Pipelines
         ↓
-Data-intensive platforms
+Cloud Infrastructure
         ↓
-Production-grade GenAI applications
+AI / GenAI Applications
 ```
+
+I particularly enjoy taking systems from an initial prototype to production-ready architecture by improving:
+
+* Scalability
+* Reliability
+* Performance
+* Observability
+* Maintainability
+* Cost efficiency
 
 ---
 
 ## Currently Exploring
 
-* Distributed systems and scalable architectures
-* Real-time data processing
-* Low-latency data infrastructure
-* Data-intensive backend systems
-* Production-grade RAG systems
-* LLM applications and AI agents
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Sparsh-Kumar&show_icons=true&hide_border=true&count_private=true" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sparsh-Kumar&layout=compact&hide_border=true" height="165" />
-
-</div>
+* Distributed system design
+* High-throughput data processing
+* Event-driven architectures
+* Cloud-native infrastructure
+* Large Language Model applications
+* Retrieval-Augmented Generation
+* AI Agents
+* Production-grade data platforms
 
 ---
 
 ## Contribution Activity
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Sparsh-Kumar/Sparsh-Kumar/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
-
-</div>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Sparsh-Kumar/Sparsh-Kumar/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Sparsh-Kumar/Sparsh-Kumar/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/Sparsh-Kumar/Sparsh-Kumar/output/github-contribution-grid-snake.svg"
+      alt="GitHub Contribution Snake"
+    />
+  </picture>
+</p>
 
 ---
 
-<div align="center">
+## Connect
 
-### Building systems that scale. Learning how systems work.
+<p align="center">
+  <a href="https://github.com/Sparsh-Kumar">GitHub</a>
+  ·
+  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
+</p>
 
-<br>
-
-<a href="https://github.com/Sparsh-Kumar">GitHub</a>
-  ·   <a href="https://www.linkedin.com/">LinkedIn</a>
-
-</div>
