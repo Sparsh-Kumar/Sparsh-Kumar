@@ -8,24 +8,24 @@ Software Engineer with 7+ years of experience designing backend services, data p
 distributed workflows, and production-ready AI applications.
 
 <p>
-  <img src="https://img.shields.io/badge/-Backend_Architecture-0B2545?style=flat-square" alt="Backend Architecture" />
-  <img src="https://img.shields.io/badge/-Data_Platforms-134B70?style=flat-square" alt="Data Platforms" />
-  <img src="https://img.shields.io/badge/-Distributed_Systems-1B6B7A?style=flat-square" alt="Distributed Systems" />
-  <img src="https://img.shields.io/badge/-Applied_AI-2A7F86?style=flat-square" alt="Applied AI" />
+  <img src="https://img.shields.io/badge/-Backend_Architecture-2563EB?style=flat-square" alt="Backend Architecture" />
+  <img src="https://img.shields.io/badge/-Data_Platforms-0891B2?style=flat-square" alt="Data Platforms" />
+  <img src="https://img.shields.io/badge/-Distributed_Systems-0F766E?style=flat-square" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/-Applied_AI-7C3AED?style=flat-square" alt="Applied AI" />
 </p>
 
 <p>
   <a href="https://github.com/Sparsh-Kumar">
-    <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-0D1B2A?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-334155?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
   <a href="https://www.linkedin.com/in/sparsh-kumar-b868b4180">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-1B4965?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
   </a>
   <a href="mailto:sparshkumar14998@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sparshkumar14998%40gmail.com-3A506B?style=flat-square&logo=gmail&logoColor=white" alt="Email Sparsh Kumar" />
+    <img src="https://img.shields.io/badge/Email-sparshkumar14998%40gmail.com-B91C1C?style=flat-square&logo=gmail&logoColor=white" alt="Email Sparsh Kumar" />
   </a>
   <a href="tel:+917300159158">
-    <img src="https://img.shields.io/badge/Phone-%2B91_7300159158-2A7F86?style=flat-square" alt="Call Sparsh Kumar" />
+    <img src="https://img.shields.io/badge/Phone-%2B91_7300159158-047857?style=flat-square" alt="Call Sparsh Kumar" />
   </a>
 </p>
 
@@ -50,8 +50,8 @@ I focus on the tradeoffs that keep systems useful as they grow. Reliability, sca
 
 ### [Low-Latency Data as a Service](https://github.com/Sparsh-Kumar/Low-Latency-DAAS)
 
-<img src="https://img.shields.io/badge/-IN_PROGRESS-274C77?style=flat-square" alt="In progress" />
-<img src="https://img.shields.io/badge/-DISTRIBUTED_DATA_PLATFORM-3A506B?style=flat-square" alt="Distributed data platform" />
+<img src="https://img.shields.io/badge/-IN_PROGRESS-B45309?style=flat-square" alt="In progress" />
+<img src="https://img.shields.io/badge/-DISTRIBUTED_DATA_PLATFORM-1D4ED8?style=flat-square" alt="Distributed data platform" />
 
 **Python · WebSockets · Docker · PostgreSQL · MongoDB · Terraform**
 
@@ -61,8 +61,8 @@ Building a data platform that isolates ticker, trade, and order book ingestion i
 
 ### [News Investing Advisor](https://github.com/Sparsh-Kumar/Live-News-Evaluation-Implementation)
 
-<img src="https://img.shields.io/badge/-IN_PROGRESS-274C77?style=flat-square" alt="In progress" />
-<img src="https://img.shields.io/badge/-BACKEND_AI_SYSTEM-3A506B?style=flat-square" alt="Backend AI system" />
+<img src="https://img.shields.io/badge/-COMPLETE-15803D?style=flat-square" alt="Complete" />
+<img src="https://img.shields.io/badge/-BACKEND_AI_SYSTEM-6D28D9?style=flat-square" alt="Backend AI system" />
 
 **Python · Flask · MongoDB · OpenAI · RSS · Groww API**
 
@@ -72,7 +72,7 @@ A scheduled backend system that combines external news feeds with portfolio data
 
 ### [Redis Streams Message Queue](https://github.com/Sparsh-Kumar/Redis-Streams-Message-Queue)
 
-<img src="https://img.shields.io/badge/-MESSAGING_INFRASTRUCTURE-3A506B?style=flat-square" alt="Messaging infrastructure" />
+<img src="https://img.shields.io/badge/-MESSAGING_INFRASTRUCTURE-0F766E?style=flat-square" alt="Messaging infrastructure" />
 
 **TypeScript · Node.js · Redis Streams**
 
@@ -82,7 +82,7 @@ A message queue built directly on Redis Streams to make asynchronous delivery be
 
 ### [Finsight](https://github.com/Sparsh-Kumar/Finsight)
 
-<img src="https://img.shields.io/badge/-EXTENSIBLE_DATA_LIBRARY-3A506B?style=flat-square" alt="Extensible data library" />
+<img src="https://img.shields.io/badge/-EXTENSIBLE_DATA_LIBRARY-0E7490?style=flat-square" alt="Extensible data library" />
 
 **TypeScript · Node.js · Web Data Extraction**
 
@@ -92,7 +92,7 @@ A TypeScript library that turns multiple categories of financial information int
 
 ### [RAG Stock Concall Evaluation](https://github.com/Sparsh-Kumar/Quarterly-Concall-Evaluation-Implementation)
 
-<img src="https://img.shields.io/badge/-RAG_DATA_PIPELINE-3A506B?style=flat-square" alt="RAG data pipeline" />
+<img src="https://img.shields.io/badge/-RAG_DATA_PIPELINE-4338CA?style=flat-square" alt="RAG data pipeline" />
 
 **Python · Haystack · OpenAI · PDF Processing**
 
