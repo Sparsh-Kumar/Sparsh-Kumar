@@ -9,7 +9,7 @@ distributed workflows, and production-ready AI applications.
 
 <p>
   <img src="https://img.shields.io/badge/-Backend_Architecture-2563EB?style=flat-square" alt="Backend Architecture" />
-  <img src="https://img.shields.io/badge/-Data_Platforms-0891B2?style=flat-square" alt="Data Platforms" />
+  <img src="https://img.shields.io/badge/-Data_Platforms-0369A1?style=flat-square" alt="Data Platforms" />
   <img src="https://img.shields.io/badge/-Distributed_Systems-0F766E?style=flat-square" alt="Distributed Systems" />
   <img src="https://img.shields.io/badge/-Applied_AI-7C3AED?style=flat-square" alt="Applied AI" />
 </p>
@@ -61,7 +61,6 @@ Building a data platform that isolates ticker, trade, and order book ingestion i
 
 ### [News Investing Advisor](https://github.com/Sparsh-Kumar/Live-News-Evaluation-Implementation)
 
-<img src="https://img.shields.io/badge/-COMPLETE-15803D?style=flat-square" alt="Complete" />
 <img src="https://img.shields.io/badge/-BACKEND_AI_SYSTEM-6D28D9?style=flat-square" alt="Backend AI system" />
 
 **Python · Flask · MongoDB · OpenAI · RSS · Groww API**
