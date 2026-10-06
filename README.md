@@ -2,17 +2,30 @@
 
 # Sparsh Kumar
 
-### Backend Engineering · Data Platforms · Distributed Systems · Generative AI
+### Senior Software Engineer · Backend Systems · Distributed Platforms · Data & AI Infrastructure
 
-Software Engineer with 7+ years of experience building scalable applications,
-data-intensive systems, and production-minded AI workflows.
+Software Engineer with 7+ years of experience designing backend services, data platforms,
+distributed workflows, and production-ready AI applications.
+
+<p>
+  <img src="https://img.shields.io/badge/-Backend_Architecture-0B2545?style=flat-square" alt="Backend Architecture" />
+  <img src="https://img.shields.io/badge/-Data_Platforms-134B70?style=flat-square" alt="Data Platforms" />
+  <img src="https://img.shields.io/badge/-Distributed_Systems-1B6B7A?style=flat-square" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/-Applied_AI-2A7F86?style=flat-square" alt="Applied AI" />
+</p>
 
 <p>
   <a href="https://github.com/Sparsh-Kumar">
-    <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-Sparsh--Kumar-0D1B2A?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
   <a href="https://www.linkedin.com/in/sparsh-kumar-b868b4180">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-1B4965?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+  </a>
+  <a href="mailto:sparshkumar14998@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sparshkumar14998%40gmail.com-3A506B?style=flat-square&logo=gmail&logoColor=white" alt="Email Sparsh Kumar" />
+  </a>
+  <a href="tel:+917300159158">
+    <img src="https://img.shields.io/badge/Phone-%2B91_7300159158-2A7F86?style=flat-square" alt="Call Sparsh Kumar" />
   </a>
 </p>
 
@@ -22,85 +35,95 @@ data-intensive systems, and production-minded AI workflows.
 
 ## Engineering Profile
 
-I work on systems where reliability, throughput, and maintainability matter: backend services, real-time ingestion, distributed messaging, data platforms, and retrieval-augmented AI applications.
+I design backend systems from service boundaries and data contracts through deployment and operation. My work spans asynchronous services, APIs, ingestion pipelines, messaging infrastructure, storage abstractions, and LLM-backed workflows.
 
-My approach is to make complexity explicit—clear service boundaries, reusable infrastructure, validated data contracts, failure-aware processing, and automation that supports repeatable delivery.
+I focus on the tradeoffs that keep systems useful as they grow. Reliability, scalability, maintainability, delivery speed, and operational clarity are treated as design inputs rather than cleanup work.
+
+| Focus | Applied work |
+| --- | --- |
+| **System architecture** | Independently deployable services, reusable libraries, stable APIs, and explicit ownership boundaries |
+| **Reliability** | Acknowledgements, recovery paths, deduplication, schema validation, migrations, and layered tests |
+| **Data platforms** | Real-time ingestion, relational and document storage, columnar data, and analytical query engines |
+| **Delivery** | Locked dependencies, container builds, infrastructure as code, CI/CD, and environment separation |
 
 ## Selected Engineering Work
 
 ### [Low-Latency Data as a Service](https://github.com/Sparsh-Kumar/Low-Latency-DAAS)
 
-**Status:** In progress &nbsp;·&nbsp; **Python · WebSockets · Docker · PostgreSQL · MongoDB · Terraform**
+<img src="https://img.shields.io/badge/-IN_PROGRESS-274C77?style=flat-square" alt="In progress" />
+<img src="https://img.shields.io/badge/-DISTRIBUTED_DATA_PLATFORM-3A506B?style=flat-square" alt="Distributed data platform" />
 
-Building a reusable market-data platform around independently deployable ingestion jobs for live tickers, trades, and order books. Each Python 3.12 job owns its dependencies, linting, tests, and container build; shared libraries provide database, logging, and exception abstractions across the platform.
+**Python · WebSockets · Docker · PostgreSQL · MongoDB · Terraform**
 
-**Technical depth:** Separate local and production Compose configurations, tested MongoDB/PostgreSQL adapters, environment-specific Terraform scaffolding, and an architecture designed to extend beyond cryptocurrency feeds to protocols such as ITCH and FIX.
+Building a data platform that isolates ticker, trade, and order book ingestion into independently deployable Python services. Each service owns its dependencies, lint checks, tests, and container build. Shared libraries provide consistent logging, exception handling, and MongoDB or PostgreSQL access. Separate Compose stacks and Terraform environments keep local and production concerns explicit while allowing new ingestion protocols to follow the same operating model.
 
 ---
 
 ### [News Investing Advisor](https://github.com/Sparsh-Kumar/Live-News-Evaluation-Implementation)
 
-**Status:** In progress &nbsp;·&nbsp; **Python · Flask · MongoDB · OpenAI · RSS · Groww API**
+<img src="https://img.shields.io/badge/-IN_PROGRESS-274C77?style=flat-square" alt="In progress" />
+<img src="https://img.shields.io/badge/-BACKEND_AI_SYSTEM-3A506B?style=flat-square" alt="Backend AI system" />
 
-An automated research workflow that combines market and political news with portfolio context to produce structured, confidence-scored investment suggestions. The scheduler deduplicates RSS items, selects the correct analysis mode, validates model output, and persists auditable results in MongoDB.
+**Python · Flask · MongoDB · OpenAI · RSS · Groww API**
 
-**Technical depth:** Independent real-time and weekly rebalancing paths, guarded handling of unavailable live-price data, versioned database migrations, a REST API, a responsive dashboard, and unit/integration/end-to-end test layers.
-
----
-
-### [Finsight](https://github.com/Sparsh-Kumar/Finsight)
-
-**Type:** Developer library &nbsp;·&nbsp; **TypeScript · Node.js · Web Data Extraction**
-
-A typed library for retrieving structured company information where a conventional API may not exist. Its source-oriented design exposes asynchronous methods for financial statements, shareholding patterns, credit ratings, announcements, annual reports, conference calls, and sentiment data.
-
-**Technical depth:** A unified public interface separates consumers from source-specific extraction logic; Screener.in is currently supported, with the codebase structured for additional providers.
+A scheduled backend system that combines external news feeds with portfolio data and structured model output. The pipeline deduplicates inputs, chooses the correct processing mode, validates responses before persistence, and preserves an auditable decision history in MongoDB. Versioned migrations, guarded behavior when live data is unavailable, Flask APIs, a responsive dashboard, and layered tests support the complete workflow from ingestion to presentation.
 
 ---
 
 ### [Redis Streams Message Queue](https://github.com/Sparsh-Kumar/Redis-Streams-Message-Queue)
 
-**Type:** Distributed systems project &nbsp;·&nbsp; **TypeScript · Node.js · Redis Streams**
+<img src="https://img.shields.io/badge/-MESSAGING_INFRASTRUCTURE-3A506B?style=flat-square" alt="Messaging infrastructure" />
 
-A message-queue implementation built from first principles on Redis Streams. It provides producer and blocking-consumer abstractions while exploring the mechanics behind durable messaging rather than treating the broker as a black box.
+**TypeScript · Node.js · Redis Streams**
 
-**Technical depth:** Consumer-group primitives, explicit acknowledgement, pending-message handling, delivery guarantees, persistence trade-offs, and horizontal consumer scaling.
+A message queue built directly on Redis Streams to make asynchronous delivery behavior explicit. Producer and blocking consumer APIs use consumer groups, acknowledgements, and pending-message recovery. The implementation exposes work distribution, redelivery, persistence choices, and horizontal scaling without hiding the underlying broker semantics behind a framework.
+
+---
+
+### [Finsight](https://github.com/Sparsh-Kumar/Finsight)
+
+<img src="https://img.shields.io/badge/-EXTENSIBLE_DATA_LIBRARY-3A506B?style=flat-square" alt="Extensible data library" />
+
+**TypeScript · Node.js · Web Data Extraction**
+
+A TypeScript library that turns multiple categories of financial information into a consistent programmatic interface. Its asynchronous API covers company statements, ratios, ownership data, ratings, announcements, and reports. Source-specific extraction remains behind adapters, which isolates provider behavior and keeps the public contract stable as integrations are added.
 
 ---
 
 ### [RAG Stock Concall Evaluation](https://github.com/Sparsh-Kumar/Quarterly-Concall-Evaluation-Implementation)
 
-**Type:** Applied RAG research &nbsp;·&nbsp; **Python · Haystack · OpenAI · PDF Processing**
+<img src="https://img.shields.io/badge/-RAG_DATA_PIPELINE-3A506B?style=flat-square" alt="RAG data pipeline" />
 
-A research pipeline for turning company conference-call PDFs into clean, queryable transcript context. It supports cross-quarter analysis of management commentary, commitments, positive and negative developments, and potential investment signals.
+**Python · Haystack · OpenAI · PDF Processing**
 
-**Technical depth:** Automated PDF-to-text preparation followed by a Haystack and GPT-4o-mini retrieval workflow, with notebook-based analysis over processed transcript collections.
+A Python pipeline that converts unstructured PDFs into cleaned transcript collections and retrieves relevant passages for downstream analysis. Document preparation remains separate from Haystack and GPT-4o-mini retrieval, which allows the corpus to be rebuilt independently and keeps ingestion concerns outside the model-facing workflow.
 
 ## Technical Toolkit
 
 | Area | Technologies |
 | --- | --- |
 | **Languages** | Python, TypeScript, JavaScript, SQL |
-| **Backend & APIs** | Node.js, Flask, NestJS, REST, WebSockets, asynchronous processing |
-| **Data & Messaging** | Kafka, Redis Streams, PySpark, Parquet, Apache Iceberg, Trino |
+| **Backend & APIs** | Node.js, Flask, NestJS, REST, WebSockets |
+| **Distributed Systems** | Kafka, Redis Streams, consumer groups, asynchronous processing |
+| **Data Platforms** | PySpark, Parquet, Apache Iceberg, Trino, real-time ingestion |
 | **Databases** | PostgreSQL, MongoDB, Redis |
 | **Cloud & Infrastructure** | AWS, GCP, Docker, Kubernetes, Terraform |
-| **AI Engineering** | OpenAI APIs, RAG, Haystack, LangChain, LangGraph, AI agents |
-| **Engineering Practice** | pytest, Ruff, GitHub Actions, CircleCI, system design |
+| **Applied AI** | OpenAI APIs, RAG, Haystack, LangChain, LangGraph |
+| **Engineering Practice** | System design, pytest, Ruff, GitHub Actions, CircleCI |
 
 ## Current Focus
 
-- Designing independent, observable ingestion workloads for real-time data systems
-- Building reliable data-lake foundations for analytical and AI workloads
-- Applying LLMs through validated schemas, retrieval, and auditable workflows
-- Deepening distributed-systems design, failure handling, and performance engineering
+- Designing reliable distributed services with clear ownership boundaries
+- Building data and AI platforms from ingestion through APIs and user-facing workflows
+- Evaluating tradeoffs across consistency, availability, latency, complexity, and cost
+- Improving operational readiness through tests, automation, observability, and failure recovery
 
 ---
 
 <div align="center">
 
-Interested in backend systems, data infrastructure, distributed architectures, and practical AI engineering.
+Interested in senior backend, platform, distributed systems, and data infrastructure roles.
 
-[GitHub](https://github.com/Sparsh-Kumar) · [LinkedIn](https://www.linkedin.com/in/sparsh-kumar-b868b4180)
+[GitHub](https://github.com/Sparsh-Kumar) · [LinkedIn](https://www.linkedin.com/in/sparsh-kumar-b868b4180) · [Email](mailto:sparshkumar14998@gmail.com) · [Phone](tel:+917300159158)
 
 </div>
